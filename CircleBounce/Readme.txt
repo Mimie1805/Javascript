@@ -3,7 +3,7 @@ Task:
 	2-When the projectile reaches the bottom of the browser window it should bounce until it stops	
 
 How to use it:
-	The code using Javascript and HTML5 Canvas.
+	The code is using Javascript and HTML5 Canvas.
 	The external javascript file is loading using <script></script> tag.
 
 Description:
