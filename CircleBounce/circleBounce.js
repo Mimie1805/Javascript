@@ -66,10 +66,10 @@
 		uy = dy / d;
 
 		if(d < circle1.radius + circle2.radius){ //the two circles touch each other, it reverses direction
-			circle1.vx -= ux * bounceBall;
-			circle1.vy -= uy * bounceBall;
-			circle2.vx += ux * bounceBall;
-			circle2.vy += uy * bounceBall;
+			circle1.vx -= ux;
+			circle1.vy -= uy;
+			circle2.vx += ux;
+			circle2.vy += uy;
 		}
 	}
 	var circles = []; //hold circles
